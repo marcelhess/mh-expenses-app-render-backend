@@ -3,6 +3,7 @@ import {
   register,
   login,
   getMe,
+  validateToken,
   logout,
   forgotPassword,
   resetPassword,
@@ -164,6 +165,46 @@ const router = express.Router();
  *                   example: true
  *                 data:
  *                   $ref: '#/components/schemas/User'
+ *       401:
+ *         $ref: '#/components/responses/UnauthorizedError'
+ *       429:
+ *         $ref: '#/components/responses/RateLimitError'
+ */
+
+/**
+ * @swagger
+ * /api/v1/auth/validate:
+ *   get:
+ *     summary: Validate token and get user info
+ *     description: Validate the JWT token and return user information if valid
+ *     tags: [Authentication]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Token is valid and user information returned
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 valid:
+ *                   type: boolean
+ *                   example: true
+ *                 user:
+ *                   type: object
+ *                   properties:
+ *                     id:
+ *                       type: string
+ *                     name:
+ *                       type: string
+ *                     email:
+ *                       type: string
+ *                     role:
+ *                       type: string
  *       401:
  *         $ref: '#/components/responses/UnauthorizedError'
  *       429:
@@ -408,6 +449,7 @@ router.post("/login", authLimiter, validate(loginValidation), login);
 
 // Apply general rate limiting to profile access
 router.get("/me", generalLimiter, protect, getMe);
+router.get("/validate", generalLimiter, protect, validateToken);
 router.get("/logout", generalLimiter, protect, logout);
 
 // Apply very strict rate limiting to password reset requests

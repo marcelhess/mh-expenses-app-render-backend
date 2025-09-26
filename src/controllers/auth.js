@@ -79,6 +79,24 @@ export const getMe = asyncHandler(async (req, res) => {
   });
 });
 
+// @desc    Validate token and return user info
+// @route   GET /api/v1/auth/validate
+// @access  Private
+export const validateToken = asyncHandler(async (req, res) => {
+  const user = await User.findById(req.user.id);
+
+  res.status(200).json({
+    success: true,
+    valid: true,
+    user: {
+      id: user._id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+    },
+  });
+});
+
 // @desc    Log user out / clear cookie
 // @route   GET /api/v1/auth/logout
 // @access  Private

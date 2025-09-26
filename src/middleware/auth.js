@@ -19,7 +19,7 @@ export const protect = async (req, res, next) => {
   if (!token) {
     return res.status(401).json({
       success: false,
-      message: "Not authorized to access this route",
+      message: "No token provided, authorization denied",
     });
   }
 
@@ -29,11 +29,26 @@ export const protect = async (req, res, next) => {
 
     req.user = await User.findById(decoded.id);
 
+    if (!req.user) {
+      return res.status(401).json({
+        success: false,
+        message: "User not found, authorization denied",
+      });
+    }
+
     next();
   } catch (err) {
+    let message = "Token is not valid";
+    
+    if (err.name === 'JsonWebTokenError') {
+      message = "Invalid token format";
+    } else if (err.name === 'TokenExpiredError') {
+      message = "Token has expired";
+    }
+
     return res.status(401).json({
       success: false,
-      message: "Not authorized to access this route",
+      message,
     });
   }
 };
