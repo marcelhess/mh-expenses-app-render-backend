@@ -1,0 +1,105 @@
+2025-09-15 16:13:18 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 16:13:18 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:06 [HTTP]: GET /api/v1/settings [33m401[0m 8.946ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:06 [HTTP]: GET /api/v1/settings [33m401[0m 2.510ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:07 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 16.114ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:07 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 0.591ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:12 [HTTP]: GET /api/v1/auth/me [33m401[0m 9.418ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:20 [HTTP]: POST /api/v1/auth/login [32m200[0m 343.643ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:20 [HTTP]: GET /api/v1/settings [32m200[0m 406.799ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:21 [HTTP]: GET /api/v1/settings [32m304[0m 363.911ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:22 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 1.62s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:23 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.54s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:56 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 16:17:56 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 16:18:05 [HTTP]: GET /api/v1/settings [32m304[0m 363.769ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:18:06 [HTTP]: GET /api/v1/settings [32m304[0m 333.672ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:18:07 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.00s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:18:09 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.83s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:36:51 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 16:36:51 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 16:38:06 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 16:38:06 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:16 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:16 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:29 [HTTP]: POST /api/v1/auth/login [32m200[0m 274.011ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:29 [HTTP]: GET /api/v1/settings [32m304[0m 323.281ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:30 [HTTP]: GET /api/v1/settings [32m304[0m 328.058ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:31 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.54s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:39:32 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.49s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:42:09 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 16:42:09 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 16:42:23 [HTTP]: GET /api/v1/settings [32m304[0m 367.711ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:42:24 [HTTP]: GET /api/v1/settings [32m304[0m 358.675ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:42:25 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.50s - {
+  "service": "expense-tracker"
+}
+2025-09-15 16:42:26 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.43s - {
+  "service": "expense-tracker"
+}

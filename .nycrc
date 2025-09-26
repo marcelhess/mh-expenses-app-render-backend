@@ -1,0 +1,30 @@
+{
+  "all": true,
+  "include": [
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "src/server.js",
+    "src/config/db.js",
+    "src/utils/seeder.js",
+    "tests/**",
+    "coverage/**",
+    "node_modules/**",
+    "*.config.js"
+  ],
+  "reporter": [
+    "text",
+    "html",
+    "lcov",
+    "json"
+  ],
+  "report-dir": "coverage",
+  "check-coverage": true,
+  "lines": 80,
+  "functions": 80,
+  "branches": 75,
+  "statements": 80,
+  "cache": false,
+  "instrument": true,
+  "sourceMap": false
+}

@@ -1,0 +1,154 @@
+2025-09-15 16:13:18 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-15 16:13:18 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-15 16:13:21 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-00.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-15 16:13:21 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 2741,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-15 16:13:21 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-15 16:13:23 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-15 16:17:56 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-15 16:17:56 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-15 16:17:58 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-00.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-15 16:17:58 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 2140,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-15 16:17:58 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-15 16:18:01 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-15 16:36:51 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-15 16:36:51 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-15 16:36:53 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-02.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-15 16:36:53 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 1959,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-15 16:36:53 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-15 16:36:55 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-15 16:38:06 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-15 16:38:06 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-15 16:38:08 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-02.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-15 16:38:08 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 1692,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-15 16:38:08 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-15 16:38:10 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-15 16:39:16 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-15 16:39:16 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-15 16:39:18 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-02.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-15 16:39:18 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 1759,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-15 16:39:18 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-15 16:39:20 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-15 16:42:09 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-15 16:42:09 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-15 16:42:11 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-00.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-15 16:42:11 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 1699,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-15 16:42:11 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-15 16:42:13 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-15 17:51:24 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-09-15 17:51:54 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-00.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}

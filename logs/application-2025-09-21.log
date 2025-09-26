@@ -1,0 +1,2642 @@
+2025-09-21 15:25:00 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:01 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:44 [HTTP]: GET /api/v1/settings [33m401[0m 1.628ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:44 [HTTP]: GET /api/v1/settings [33m401[0m 2.229ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:54 [HTTP]: POST /api/v1/auth/login [32m200[0m 284.093ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:54 [HTTP]: GET /api/v1/settings [32m200[0m 354.299ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:55 [HTTP]: GET /api/v1/settings [32m304[0m 340.008ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:56 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.61s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:25:58 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.49s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:37 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [33m401[0m 21.35s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:37 [HTTP]: GET /api/v1/categories [32m200[0m 1.47s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:37 [HTTP]: GET /api/v1/categories [33m401[0m 21.57s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:38 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 1.42s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:39 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 1.55s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:39 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 22.16s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:57 [HTTP]: GET /api/v1/categories [33m401[0m 21.55s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:57 [HTTP]: GET /api/v1/categories [33m401[0m 21.61s - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:59 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:33:59 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:34:23 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:34:23 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:34:31 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:34:31 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:37:10 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:37:17 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:37:18 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:37:58 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:37:58 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:07 [HTTP]: GET /api/v1/auth/me [33m401[0m 1.088ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:16 [HTTP]: POST /api/v1/auth/login [33m401[0m 167.410ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:24 [HTTP]: POST /api/v1/auth/login [33m401[0m 162.010ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:24 [HTTP]: POST /api/v1/auth/login [33m401[0m 164.291ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [HTTP]: POST /api/v1/auth/login [33m401[0m 193.936ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [HTTP]: POST /api/v1/auth/login [33m401[0m 180.154ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [WARN]: Auth rate limit exceeded for IP: ::1 on /api/v1/auth/login {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [HTTP]: POST /api/v1/auth/login [33m429[0m 1.459ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [WARN]: Auth rate limit exceeded for IP: ::1 on /api/v1/auth/login {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:25 [HTTP]: POST /api/v1/auth/login [33m429[0m 0.798ms {"email":"test@test.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-21 15:38:33 [HTTP]: HEAD /api/v1/auth/me [33m401[0m 0.253ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:40:51 [HTTP]: GET /api/v1/settings [33m401[0m 0.517ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:40:51 [HTTP]: GET /api/v1/settings [33m401[0m 0.114ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:00 [HTTP]: GET /api/v1/settings [33m401[0m 0.878ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:00 [HTTP]: GET /api/v1/settings [33m401[0m 0.452ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:06 [HTTP]: GET /api/v1/settings [33m401[0m 0.364ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:06 [HTTP]: GET /api/v1/settings [33m401[0m 0.092ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:14 [HTTP]: GET /api/v1/settings [33m401[0m 0.164ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:14 [HTTP]: GET /api/v1/settings [33m401[0m 0.173ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:20 [HTTP]: GET /api/v1/settings [33m401[0m 0.388ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:41:20 [HTTP]: GET /api/v1/settings [33m401[0m 0.220ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:45:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.635ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:45:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.104ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:45:26 [HTTP]: GET /api/v1/settings [33m401[0m 6.090ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:45:26 [HTTP]: GET /api/v1/settings [33m401[0m 0.163ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:45:26 [HTTP]: GET /api/v1/settings [33m401[0m 0.422ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:45:26 [HTTP]: GET /api/v1/settings [33m401[0m 0.628ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:28 [WARN]: Route not found: GET /api-docs?ide_webview_request_time=1758470188372 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:28 [HTTP]: GET /api-docs?ide_webview_request_time=1758470188372 [33m404[0m 4.391ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:28 [WARN]: Route not found: GET /@vite/client {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:28 [HTTP]: GET /@vite/client [33m404[0m 0.280ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:34 [WARN]: Route not found: GET /api-docs.json {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:34 [HTTP]: GET /api-docs.json [33m404[0m 0.319ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:35 [WARN]: Route not found: GET /api-docs?ide_webview_request_time=1758470195757 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:35 [HTTP]: GET /api-docs?ide_webview_request_time=1758470195757 [33m404[0m 0.538ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:35 [WARN]: Route not found: GET /@vite/client {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:35 [HTTP]: GET /@vite/client [33m404[0m 0.462ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:55 [WARN]: Route not found: GET /api-docs.json {
+  "service": "expense-tracker"
+}
+2025-09-21 15:56:55 [HTTP]: GET /api-docs.json [33m404[0m 1.352ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:57:01 [WARN]: Route not found: GET /api-docs.json {
+  "service": "expense-tracker"
+}
+2025-09-21 15:57:01 [HTTP]: GET /api-docs.json [33m404[0m 0.442ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:58:53 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:58:53 [INFO]: 📚 API Documentation available at /api-docs {
+  "service": "expense-tracker"
+}
+2025-09-21 15:58:53 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:58:59 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:58:59 [INFO]: 📚 API Documentation available at /api-docs {
+  "service": "expense-tracker"
+}
+2025-09-21 15:58:59 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:21 [HTTP]: GET /api/v1/settings [33m401[0m 3.883ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:21 [HTTP]: GET /api/v1/settings [33m401[0m 0.457ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:29 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:29 [INFO]: 📚 API Documentation available at /api-docs {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:29 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:37 [HTTP]: GET /api-docs.json [32m200[0m 1.138ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:43 [HTTP]: GET /api-docs.json [32m200[0m 0.854ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:49 [HTTP]: GET /api-docs.json [32m200[0m 2.605ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:55 [HTTP]: GET /api-docs?ide_webview_request_time=1758470395579 [32m301[0m 2.371ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:55 [HTTP]: GET /api-docs/?ide_webview_request_time=1758470395579 [32m200[0m 1.493ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:55 [HTTP]: GET /api-docs/swagger-ui.css [32m200[0m 3.543ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:55 [HTTP]: GET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 0.908ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:55 [HTTP]: GET /api-docs/swagger-ui-init.js [32m200[0m 1.173ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:55 [HTTP]: GET /api-docs/swagger-ui-bundle.js [32m200[0m 1.704ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:56 [WARN]: Route not found: GET /@vite/client {
+  "service": "expense-tracker"
+}
+2025-09-21 15:59:56 [HTTP]: GET /@vite/client [33m404[0m 0.842ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:20 [HTTP]: GET /api-docs/?ide_webview_request_time=1758470395579 [32m200[0m 0.992ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:20 [HTTP]: GET /api-docs/swagger-ui-init.js [32m200[0m 1.377ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:20 [HTTP]: GET /api-docs/swagger-ui.css [32m200[0m 5.677ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:20 [HTTP]: GET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 5.978ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:20 [HTTP]: GET /api-docs/swagger-ui-bundle.js [32m200[0m 7.377ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:21 [WARN]: Route not found: GET /@vite/client {
+  "service": "expense-tracker"
+}
+2025-09-21 16:00:21 [HTTP]: GET /@vite/client [33m404[0m 0.659ms - {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:46 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:48 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:48 [WARN]: Registration rate limit exceeded for IP: ::ffff:127.0.0.1 {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:50 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:50 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:50 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:50 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:53 [INFO]: Email sent: <11f9578b-26b0-fce3-a789-6753d0317964@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:53 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:53 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:50:54 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:07 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:20 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:22 [ERROR]: Error fetching expense: Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Expense" {
+  "service": "expense-tracker",
+  "error": "CastError: Cast to ObjectId failed for value \"invalid-id\" (type string) at path \"_id\" for model \"Expense\"\n    at SchemaObjectId.cast (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaObjectId.SchemaType.applySetters (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaObjectId.SchemaType.castForQuery (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/cast.js:390:32)\n    at model.Query.Query.cast (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4907:12)\n    at model.Query.Query._castConditions (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2325:10)\n    at model.Query._findOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:2648:8)\n    at model.Query.exec (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongoose/lib/query.js:4456:80)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:291:21"
+}
+2025-09-21 16:51:24 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0
+Please retry in 35.276731754s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}] {
+  "service": "expense-tracker",
+  "originalNote": "Daily commute",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0\nPlease retry in 35.276731754s. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"35s\"}]\n    at makeRequest (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at generateContent (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at enhanceExpenseNotes (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:122:31"
+}
+2025-09-21 16:51:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Category is required, undefined: Invalid category ID, undefined: Journey date is required, undefined: Journey date must be a valid date, undefined: Invalid value(s)",
+  "path": "/api/v1/expenses",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Category is required, undefined: Invalid category ID, undefined: Journey date is required, undefined: Journey date must be a valid date, undefined: Invalid value(s)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Invalid category ID",
+  "path": "/api/v1/expenses",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Invalid category ID\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Distance must be a positive number, undefined: Invalid value(s)",
+  "path": "/api/v1/expenses",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Distance must be a positive number, undefined: Invalid value(s)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:25 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0
+Please retry in 34.347748073s. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-1.5-pro","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"34s"}] {
+  "service": "expense-tracker",
+  "originalNote": "Updated notes",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0\nPlease retry in 34.347748073s. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-pro\",\"location\":\"global\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"34s\"}]\n    at makeRequest (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at generateContent (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at enhanceExpenseNotes (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:43:20)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/expense.controller.js:427:31"
+}
+2025-09-21 16:51:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Distance must be a positive number",
+  "path": "/api/v1/expenses/68d02d0da9d10804a89ba56c",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Distance must be a positive number\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:40 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:42 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:42 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:42 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:42 [WARN]: Registration rate limit exceeded for IP: ::ffff:127.0.0.1 {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:44 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:44 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:44 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:48 [INFO]: Email sent: <e4e5ebaf-284c-db58-27e9-be2e50bc94ef@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:51:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:53:01 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:37 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:38 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:38 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [WARN]: Registration rate limit exceeded for IP: ::ffff:127.0.0.1 {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:39 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:40 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:40 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:40 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:43 [INFO]: Email sent: <842d62cf-6101-6e5e-11ce-c6ce45e790da@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:54:43 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:12 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [WARN]: Registration rate limit exceeded for IP: ::ffff:127.0.0.1 {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:15 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:15 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:15 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:15 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:15 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:15 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:16 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/updatepassword {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:18 [INFO]: Email sent: <68f15e0f-d2b4-166d-51c9-8c4860adeeb5@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:18 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/resetpassword/8310b50b075a124519d9b631b9b4f25c8275bfb2 {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:19 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/resetpassword/invalid-token {
+  "service": "expense-tracker"
+}
+2025-09-21 16:55:19 [WARN]: Auth rate limit exceeded for IP: ::ffff:127.0.0.1 on /api/v1/auth/resetpassword/174fccafdc44f4de67e99f8ac31cd5d81a51382c {
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:10 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:11 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:11 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:11 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:12 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:16 [INFO]: Email sent: <55b1a4f0-8ce3-dce3-9549-1245d75412f8@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:16 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:56:17 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/41f6f74311474cd01af2ee9c1727b50d7938b39f",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:42 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:44 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:45 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:45 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:45 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:48 [INFO]: Email sent: <8ae7a8d8-61d7-b400-d9bd-23479aa59806@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:57:49 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/1d3d59e4d0ad60331f4edfb1e3390e12ad927dcb",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:23 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:25 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:25 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:27 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:27 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:27 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:30 [INFO]: Email sent: <ba02d752-b43b-09b1-1880-d5becdbd9b25@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 16:58:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/271be72fb0001464296463d62e1f9b5356f18e4b",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:53 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:55 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:56 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:00:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:01 [INFO]: Email sent: <0e47835b-b430-13a1-8844-cbad2663708a@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/cdf52b38a0e97eedad7bf1b48f44996615609f4e",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:55 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:57 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:57 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:58 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:01:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:02:02 [INFO]: Email sent: <ac3101b2-2b34-6dae-f7f6-bd6eaca4b704@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 17:02:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:02:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:02:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:02:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/8bcad069c9a1aa2d12671a9b60b78e521309ce5e",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:16 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:18 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:19 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:19 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:19 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:19 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:20 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:23 [INFO]: Email sent: <3511e93f-8360-447f-7354-183c8d83c3f2@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:23 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:03:24 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/c1122208e5284a98435be1d9be34863fd83a7508",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:02 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:04 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:09 [INFO]: Email sent: <b72afa86-d2a8-43e5-57bf-27586e8ad26c@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:09 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:09 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:05:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/8202423c0b11df2b545a209d92cbec8d9a6c5b4f",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:43 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:46 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:47 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:47 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:48 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:51 [INFO]: Email sent: <b5d74c85-50c7-4bba-ce49-1c9ed8dc7c27@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:51 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:51 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:06:52 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/3a65926c69af0abaf3551c7635e4e81f60857098",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:01 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "MongoServerError",
+  "errorCode": 11000,
+  "errorMessage": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at tryOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:283:14)\n    at executeOperation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/operations/execute_operation.ts:115:12)\n    at Collection.insertOne (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/src/collection.ts:285:12)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters",
+  "path": "/api/v1/auth/register",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid credentials\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:64:11",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Your account has been deactivated. Please contact an administrator.",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Your account has been deactivated. Please contact an administrator.\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:54:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password is required, undefined: Email is required, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:04 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/updateprofile",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Name is required, undefined: Name must be between 3 and 50 characters, undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Password is incorrect",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Password is incorrect\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:200:17",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:05 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: New password must be at least 6 characters",
+  "path": "/api/v1/auth/updatepassword",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: New password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:08 [INFO]: Email sent: <0e8c65df-d0a9-15bb-0f6f-cd35fd914708@expenseapp.com> {
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "There is no user with that email",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: There is no user with that email\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:99:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/forgotpassword",
+  "method": "POST",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid or expired token",
+  "path": "/api/v1/auth/resetpassword/invalid-token",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: Invalid or expired token\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:155:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:08:08 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Password must be at least 6 characters",
+  "path": "/api/v1/auth/resetpassword/083a6ba733773c9e6ef94a87e4d0f430d9672465",
+  "method": "PUT",
+  "ip": "::ffff:127.0.0.1",
+  "stack": "Error: undefined: Password must be at least 6 characters\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-21 17:31:27 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-21 17:31:27 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}

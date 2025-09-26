@@ -1,0 +1,168 @@
+2025-09-13 09:04:37 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:04:37 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:04:39 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-09-13 09:04:39 [ERROR]: Connection attempt 1 failed {
+  "error": "bad auth : authentication failed",
+  "name": "MongoServerError",
+  "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async continueScramConversation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)\n    at async executeScram (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)\n    at async ScramSHA1.auth (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)\n    at async performInitialHandshake (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:104:13)\n    at async connect (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:24:9)",
+  "service": "database-connection"
+}
+2025-09-13 09:04:39 [INFO]: Retrying in 2 seconds... {
+  "service": "database-connection"
+}
+2025-09-13 09:04:39 [ERROR]: Connection error {
+  "error": "bad auth : authentication failed",
+  "name": "MongoServerError",
+  "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async continueScramConversation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)\n    at async executeScram (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)\n    at async ScramSHA1.auth (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)\n    at async performInitialHandshake (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:104:13)\n    at async connect (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:24:9)",
+  "service": "database-connection"
+}
+2025-09-13 09:04:41 [INFO]: Connection attempt 2 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:04:41 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:04:43 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-09-13 09:04:43 [ERROR]: Connection attempt 2 failed {
+  "error": "bad auth : authentication failed",
+  "name": "MongoServerError",
+  "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async continueScramConversation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)\n    at async executeScram (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)\n    at async ScramSHA1.auth (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)\n    at async performInitialHandshake (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:104:13)\n    at async connect (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:24:9)",
+  "service": "database-connection"
+}
+2025-09-13 09:04:43 [INFO]: Retrying in 4 seconds... {
+  "service": "database-connection"
+}
+2025-09-13 09:04:43 [ERROR]: Connection error {
+  "error": "bad auth : authentication failed",
+  "name": "MongoServerError",
+  "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async continueScramConversation (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)\n    at async executeScram (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)\n    at async ScramSHA1.auth (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)\n    at async performInitialHandshake (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:104:13)\n    at async connect (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/mongodb/lib/cmap/connect.js:24:9)",
+  "service": "database-connection"
+}
+2025-09-13 09:04:47 [INFO]: Connection attempt 3 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:04:47 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:04:48 [WARN]: Disconnected from database {
+  "service": "database-connection"
+}
+2025-09-13 09:05:27 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:05:27 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:05:29 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-00.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-13 09:05:29 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 2354,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-13 09:05:29 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-13 09:05:31 [INFO]: Category 'Fuel' created {
+  "service": "database-connection"
+}
+2025-09-13 09:05:31 [INFO]: Category 'Tolls' created {
+  "service": "database-connection"
+}
+2025-09-13 09:05:32 [INFO]: Category 'Maintenance' created {
+  "service": "database-connection"
+}
+2025-09-13 09:05:32 [INFO]: Setting 'defaultCostPerKm' created {
+  "service": "database-connection"
+}
+2025-09-13 09:05:32 [INFO]: Setting 'maxDailyDistance' created {
+  "service": "database-connection"
+}
+2025-09-13 09:05:32 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-13 09:10:41 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:10:41 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:10:44 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-02.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-13 09:10:44 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 2914,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-13 09:10:44 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-13 09:10:47 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-13 09:11:35 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:11:35 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:11:36 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-02.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-13 09:11:36 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 1732,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-13 09:11:36 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-13 09:11:38 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-09-13 09:18:37 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-09-13 09:18:37 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-09-13 09:18:39 [INFO]: Connected to database {
+  "host": "ac-pts1nwn-shard-00-02.w8wfxrd.mongodb.net",
+  "port": 27017,
+  "database": "attend-wise",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-09-13 09:18:39 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 1922,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-09-13 09:18:39 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-09-13 09:18:41 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}

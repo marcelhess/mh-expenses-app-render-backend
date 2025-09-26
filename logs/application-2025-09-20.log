@@ -1,0 +1,927 @@
+2025-09-20 19:15:10 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:10 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:29 [HTTP]: GET /api/v1/settings [33m401[0m 5.823ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:29 [HTTP]: GET /api/v1/settings [33m401[0m 1.238ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:29 [HTTP]: GET /api/v1/auth/me [33m401[0m 0.487ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:40 [HTTP]: POST /api/v1/auth/login [33m401[0m 181.443ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:40 [HTTP]: GET /api/v1/settings [33m401[0m 0.534ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:15:40 [HTTP]: GET /api/v1/settings [33m401[0m 0.201ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:16:06 [HTTP]: POST /api/v1/auth/register [32m201[0m 293.261ms {"name":"Sam","email":"sam@gmail.com","password":"[REDACTED]","role":"admin"} {
+  "service": "expense-tracker"
+}
+2025-09-20 19:16:19 [HTTP]: POST /api/v1/auth/login [32m200[0m 273.233ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 19:16:20 [HTTP]: GET /api/v1/settings [32m200[0m 354.137ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:16:20 [HTTP]: GET /api/v1/settings [32m304[0m 356.796ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:16:22 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.90s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:16:23 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.74s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:41:54 [HTTP]: GET /api/v1/settings [32m304[0m 407.578ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:41:55 [HTTP]: GET /api/v1/settings [32m304[0m 360.914ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:41:56 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.65s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:41:58 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.59s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:42:57 [HTTP]: GET /api/v1/settings [32m304[0m 353.661ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:42:57 [HTTP]: GET /api/v1/settings [32m304[0m 335.063ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:42:58 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.65s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:43:00 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.60s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:43:04 [HTTP]: GET /api/v1/settings [32m304[0m 368.620ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:43:04 [HTTP]: GET /api/v1/settings [32m304[0m 369.163ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:43:05 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.50s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:43:07 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.59s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:45:39 [HTTP]: GET /api/v1/settings [32m304[0m 389.214ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:45:39 [HTTP]: GET /api/v1/settings [32m304[0m 352.666ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:45:41 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.27s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:45:43 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.78s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:49:51 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-20 19:49:51 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-20 19:49:54 [HTTP]: GET /api/v1/settings [33m401[0m 5.447ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:49:54 [HTTP]: GET /api/v1/settings [33m401[0m 0.498ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:05 [HTTP]: POST /api/v1/auth/login [32m200[0m 314.221ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:06 [HTTP]: GET /api/v1/settings [32m304[0m 383.667ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:06 [HTTP]: GET /api/v1/settings [32m304[0m 344.385ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:08 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.10s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:11 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.71s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:16 [HTTP]: GET /api/v1/settings [32m304[0m 362.567ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:17 [HTTP]: GET /api/v1/settings [32m304[0m 366.665ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:18 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.66s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:20 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.71s - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:20 [HTTP]: GET /api/v1/auth/logout [32m304[0m 193.114ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:20 [HTTP]: GET /api/v1/settings [33m401[0m 1.247ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:20 [HTTP]: GET /api/v1/settings [33m401[0m 6.094ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:25 [HTTP]: GET /api/v1/settings [33m401[0m 0.187ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:50:25 [HTTP]: GET /api/v1/settings [33m401[0m 0.118ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:52:51 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-20 19:52:52 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:03 [HTTP]: GET /api/v1/settings [33m401[0m 16.673ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:03 [HTTP]: GET /api/v1/settings [33m401[0m 0.525ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:03 [HTTP]: GET /api/v1/settings [33m401[0m 0.146ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:03 [HTTP]: GET /api/v1/settings [33m401[0m 0.253ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:59 [HTTP]: GET /api/v1/settings [33m401[0m 3.211ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:59 [HTTP]: GET /api/v1/settings [33m401[0m 1.314ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:59 [HTTP]: GET /api/v1/settings [33m401[0m 0.191ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:53:59 [HTTP]: GET /api/v1/settings [33m401[0m 0.232ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:54:17 [HTTP]: GET /api/v1/settings [33m401[0m 0.836ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:54:17 [HTTP]: GET /api/v1/settings [33m401[0m 0.236ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:54:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.868ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:54:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.386ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:55:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.460ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 19:55:18 [HTTP]: GET /api/v1/settings [33m401[0m 1.135ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:28:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.736ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:28:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.111ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:28:51 [HTTP]: GET /api/v1/settings [33m401[0m 0.458ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:28:51 [HTTP]: GET /api/v1/settings [33m401[0m 0.125ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:07 [HTTP]: GET /api/v1/settings [33m401[0m 0.534ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:07 [HTTP]: GET /api/v1/settings [33m401[0m 0.653ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:14 [HTTP]: GET /api/v1/settings [33m401[0m 0.222ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:14 [HTTP]: GET /api/v1/settings [33m401[0m 0.456ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:52 [HTTP]: GET /api/v1/settings [33m401[0m 18.737ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:52 [HTTP]: GET /api/v1/settings [33m401[0m 0.345ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:52 [HTTP]: GET /api/v1/settings [33m401[0m 6.847ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:29:52 [HTTP]: GET /api/v1/settings [33m401[0m 1.400ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:05 [HTTP]: GET /api/v1/settings [33m401[0m 0.628ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:05 [HTTP]: GET /api/v1/settings [33m401[0m 0.375ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:07 [HTTP]: GET /api/v1/settings [33m401[0m 0.211ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:07 [HTTP]: GET /api/v1/settings [33m401[0m 0.456ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:18 [HTTP]: POST /api/v1/auth/login [33m401[0m 212.006ms {"email":"dddd@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.311ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:18 [HTTP]: GET /api/v1/settings [33m401[0m 1.003ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:30 [HTTP]: POST /api/v1/auth/login [32m200[0m 327.214ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:30 [HTTP]: GET /api/v1/settings [32m304[0m 385.162ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:31 [HTTP]: GET /api/v1/settings [32m304[0m 326.432ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:32 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.63s - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:34 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.63s - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:32:45 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.13s - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:32:47 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.66s - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:33:02 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.07s - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:33:04 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.76s - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:35:27 [HTTP]: GET /api/v1/settings [33m401[0m 3.722ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:35:27 [HTTP]: GET /api/v1/settings [33m401[0m 0.141ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:35:27 [HTTP]: GET /api/v1/settings [32m304[0m 391.322ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:35:28 [HTTP]: GET /api/v1/settings [32m304[0m 374.781ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:19 [HTTP]: GET /api/v1/settings [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:19 [HTTP]: GET /api/v1/settings [33m401[0m 0.486ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:19 [HTTP]: GET /api/v1/settings [33m401[0m 0.147ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:20 [HTTP]: GET /api/v1/settings [32m200[0m 392.247ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:20 [HTTP]: GET /api/v1/settings [32m304[0m 364.072ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:52 [HTTP]: GET /api/v1/settings [33m401[0m 1.947ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:52 [HTTP]: GET /api/v1/settings [33m401[0m 0.661ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:53 [HTTP]: GET /api/v1/settings [32m304[0m 632.050ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:36:54 [HTTP]: GET /api/v1/settings [32m304[0m 704.368ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:39:30 [HTTP]: GET /api/v1/settings [33m401[0m 2.126ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 20:39:30 [HTTP]: GET /api/v1/settings [33m401[0m 0.985ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:05 [HTTP]: GET /api/v1/settings [32m304[0m 464.471ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:05 [HTTP]: GET /api/v1/settings [32m304[0m 387.268ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:14 [HTTP]: POST /api/v1/auth/login [32m200[0m 358.390ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:15 [HTTP]: GET /api/v1/settings [32m304[0m 888.895ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:16 [HTTP]: GET /api/v1/settings [32m304[0m 399.562ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:17 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.76s - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:24:18 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.74s - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:25:30 [HTTP]: GET /api/v1/settings [32m304[0m 407.340ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:25:30 [HTTP]: GET /api/v1/settings [32m304[0m 346.316ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:26:49 [HTTP]: GET /api/v1/settings [32m304[0m 1.50s - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:26:49 [HTTP]: GET /api/v1/settings [32m304[0m 407.844ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:41:21 [HTTP]: GET /api/v1/settings [32m304[0m 353.715ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:41:21 [HTTP]: GET /api/v1/settings [32m304[0m 358.955ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:41:29 [HTTP]: GET /api/v1/settings [32m304[0m 375.589ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:41:29 [HTTP]: GET /api/v1/settings [32m304[0m 407.869ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:48:06 [HTTP]: GET /api/v1/settings [32m304[0m 399.909ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:48:07 [HTTP]: GET /api/v1/settings [32m304[0m 394.558ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:48:14 [HTTP]: GET /api/v1/settings [32m304[0m 375.347ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:48:14 [HTTP]: GET /api/v1/settings [32m304[0m 348.696ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:50:07 [HTTP]: GET /api/v1/settings [32m304[0m 362.119ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:50:07 [HTTP]: GET /api/v1/settings [32m304[0m 363.395ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:50:22 [HTTP]: GET /api/v1/settings [32m304[0m 356.426ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:50:22 [HTTP]: GET /api/v1/settings [32m304[0m 330.994ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:54:51 [HTTP]: GET /api/v1/settings [32m304[0m 365.911ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 21:54:51 [HTTP]: GET /api/v1/settings [32m304[0m 357.524ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:26 [HTTP]: POST /api/v1/auth/login [33m400[0m 78.303ms {"email":"sam@gmail","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:26 [HTTP]: GET /api/v1/settings [32m304[0m 429.467ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:27 [HTTP]: GET /api/v1/settings [32m304[0m 345.514ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:33 [HTTP]: GET /api/v1/settings [32m304[0m 398.191ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:33 [HTTP]: GET /api/v1/settings [32m304[0m 341.526ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:37 [HTTP]: GET /api/v1/settings [32m304[0m 714.519ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:38 [HTTP]: GET /api/v1/settings [32m304[0m 337.973ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:54 [HTTP]: POST /api/v1/auth/login [32m200[0m 281.666ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:54 [HTTP]: GET /api/v1/settings [32m304[0m 381.757ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:55 [HTTP]: GET /api/v1/settings [32m304[0m 349.551ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:56 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.60s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:58 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.66s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 392.676ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [HTTP]: GET /api/v1/settings [32m304[0m 402.558ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [HTTP]: GET /api/v1/settings/key/cateringAllowance [33m404[0m 401.675ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 361.223ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [HTTP]: GET /api/v1/settings [32m304[0m 361.707ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [HTTP]: GET /api/v1/settings/key/cateringAllowance [33m404[0m 357.453ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:02 [HTTP]: GET /api/v1/settings/key/accommodationAllowance [33m404[0m 1.39s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:02 [HTTP]: GET /api/v1/settings/key/accommodationAllowance [33m404[0m 370.955ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:11 [HTTP]: GET /api/v1/settings [32m304[0m 377.544ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:12 [HTTP]: GET /api/v1/settings [32m304[0m 342.373ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:20 [HTTP]: GET /api/v1/settings [32m304[0m 367.598ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:20 [HTTP]: GET /api/v1/settings [32m304[0m 356.355ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:35 [HTTP]: GET /api/v1/settings [32m304[0m 351.666ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:35 [HTTP]: GET /api/v1/settings [32m304[0m 343.065ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:41 [HTTP]: GET /api/v1/settings [32m304[0m 380.748ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:42 [HTTP]: GET /api/v1/settings [32m304[0m 371.134ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:49 [HTTP]: GET /api/v1/settings [32m304[0m 399.739ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:49 [HTTP]: GET /api/v1/settings [32m304[0m 445.442ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:02:15 [HTTP]: GET /api/v1/settings [32m304[0m 502.019ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:02:16 [HTTP]: GET /api/v1/settings [32m304[0m 403.336ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:02:21 [HTTP]: GET /api/v1/settings [32m304[0m 349.740ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:02:21 [HTTP]: GET /api/v1/settings [32m304[0m 355.516ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:05 [HTTP]: GET /api/v1/settings [32m304[0m 375.483ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:05 [HTTP]: GET /api/v1/settings [32m304[0m 359.845ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:20 [HTTP]: POST /api/v1/auth/login [32m200[0m 308.303ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:21 [HTTP]: GET /api/v1/settings [32m304[0m 357.721ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:21 [HTTP]: GET /api/v1/settings [32m304[0m 358.889ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:22 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.64s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:03:24 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.62s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:05:24 [HTTP]: GET /api/v1/settings [32m304[0m 359.479ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:05:25 [HTTP]: GET /api/v1/settings [32m304[0m 366.334ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:05:45 [HTTP]: GET /api/v1/settings [32m304[0m 367.549ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:05:46 [HTTP]: GET /api/v1/settings [32m304[0m 387.620ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:06:19 [HTTP]: GET /api/v1/settings [32m304[0m 373.588ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:06:19 [HTTP]: GET /api/v1/settings [32m304[0m 350.000ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:07:35 [HTTP]: GET /api/v1/settings [32m304[0m 344.431ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:07:36 [HTTP]: GET /api/v1/settings [32m304[0m 329.150ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:09:58 [HTTP]: GET /api/v1/settings [33m401[0m 3.905ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:09:58 [HTTP]: GET /api/v1/settings [33m401[0m 0.118ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:13:30 [HTTP]: GET /api/v1/settings [33m401[0m 0.990ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:13:30 [HTTP]: GET /api/v1/settings [33m401[0m 0.097ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:13:32 [HTTP]: GET /api/v1/settings [33m401[0m 0.537ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:13:32 [HTTP]: GET /api/v1/settings [33m401[0m 0.635ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:16:42 [HTTP]: POST /api/v1/auth/login [32m200[0m 263.535ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 22:16:43 [HTTP]: GET /api/v1/settings [32m304[0m 369.112ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:16:43 [HTTP]: GET /api/v1/settings [32m304[0m 352.469ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:16:44 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.53s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:16:46 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.52s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:17:31 [HTTP]: GET /api/v1/settings [33m401[0m 68.306ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:17:31 [HTTP]: GET /api/v1/settings [33m401[0m 0.523ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:17:31 [HTTP]: GET /api/v1/settings [32m304[0m 632.387ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:17:32 [HTTP]: GET /api/v1/settings [32m304[0m 514.707ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:18:14 [HTTP]: GET /api/v1/settings [33m401[0m 5.798ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:18:14 [HTTP]: GET /api/v1/settings [33m401[0m 0.302ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:18:14 [HTTP]: GET /api/v1/settings [32m304[0m 422.734ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:18:15 [HTTP]: GET /api/v1/settings [32m304[0m 416.628ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:26:16 [HTTP]: GET /api/v1/settings [32m304[0m 431.316ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:26:16 [HTTP]: GET /api/v1/settings [32m304[0m 331.741ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:26:45 [HTTP]: GET /api/v1/settings [32m304[0m 337.881ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:26:46 [HTTP]: GET /api/v1/settings [32m304[0m 355.790ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:26:59 [HTTP]: GET /api/v1/settings [32m304[0m 343.626ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:00 [HTTP]: GET /api/v1/settings [32m304[0m 332.200ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:07 [HTTP]: GET /api/v1/settings [32m304[0m 322.654ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:07 [HTTP]: GET /api/v1/settings [32m304[0m 330.516ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:15 [HTTP]: GET /api/v1/settings [32m304[0m 338.647ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:15 [HTTP]: GET /api/v1/settings [32m304[0m 319.963ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:34 [HTTP]: GET /api/v1/settings [32m304[0m 504.356ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:27:34 [HTTP]: GET /api/v1/settings [32m304[0m 331.607ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:07 [HTTP]: GET /api/v1/settings [32m304[0m 340.439ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:07 [HTTP]: GET /api/v1/settings [32m304[0m 325.872ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:29 [HTTP]: GET /api/v1/settings [32m304[0m 325.895ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:30 [HTTP]: GET /api/v1/settings [32m304[0m 340.301ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:40 [HTTP]: GET /api/v1/settings [32m304[0m 344.789ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:40 [HTTP]: GET /api/v1/settings [32m304[0m 339.364ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:50 [HTTP]: GET /api/v1/settings [33m401[0m 0.518ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:50 [HTTP]: GET /api/v1/settings [33m401[0m 0.069ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:51 [HTTP]: GET /api/v1/settings [33m401[0m 0.156ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:52 [HTTP]: GET /api/v1/settings [33m401[0m 0.171ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:54 [HTTP]: GET /api/v1/settings [33m401[0m 0.407ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:55 [HTTP]: GET /api/v1/settings [33m401[0m 0.359ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:55 [HTTP]: GET /api/v1/settings [33m401[0m 0.099ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:55 [HTTP]: GET /api/v1/settings [33m401[0m 0.057ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:28:55 [HTTP]: GET /api/v1/settings [33m401[0m 0.052ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:30:17 [HTTP]: GET /api/v1/settings [32m304[0m 336.220ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:30:17 [HTTP]: GET /api/v1/settings [32m304[0m 335.303ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:30:50 [HTTP]: GET /api/v1/settings [32m304[0m 344.861ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:30:50 [HTTP]: GET /api/v1/settings [32m304[0m 341.331ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:13 [HTTP]: GET /api/v1/settings [32m304[0m 344.723ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:13 [HTTP]: GET /api/v1/settings [32m304[0m 334.210ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:31 [HTTP]: GET /api/v1/settings [33m401[0m 0.700ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:31 [HTTP]: GET /api/v1/settings [33m401[0m 0.111ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:32 [HTTP]: GET /api/v1/settings [33m401[0m 0.120ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:33 [HTTP]: GET /api/v1/settings [33m401[0m 0.131ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:35 [HTTP]: GET /api/v1/settings [33m401[0m 0.344ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.196ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.112ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.069ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:31:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.064ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:15 [HTTP]: GET /api/v1/settings [33m401[0m 0.545ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:15 [HTTP]: GET /api/v1/settings [33m401[0m 0.090ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:16 [HTTP]: GET /api/v1/settings [33m401[0m 0.113ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:17 [HTTP]: GET /api/v1/settings [33m401[0m 0.165ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:18 [HTTP]: GET /api/v1/settings [33m401[0m 0.133ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:19 [HTTP]: GET /api/v1/settings [33m401[0m 0.302ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:19 [HTTP]: GET /api/v1/settings [33m401[0m 0.109ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:19 [HTTP]: GET /api/v1/settings [33m401[0m 0.054ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:19 [HTTP]: GET /api/v1/settings [33m401[0m 0.049ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:58 [HTTP]: GET /api/v1/settings [33m401[0m 0.477ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:58 [HTTP]: GET /api/v1/settings [33m401[0m 0.074ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:32:59 [HTTP]: GET /api/v1/settings [33m401[0m 0.121ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:33:00 [HTTP]: GET /api/v1/settings [33m401[0m 0.169ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:33:01 [HTTP]: GET /api/v1/settings [33m401[0m 0.182ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:33:02 [HTTP]: GET /api/v1/settings [33m401[0m 0.292ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:33:02 [HTTP]: GET /api/v1/settings [33m401[0m 0.469ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:33:02 [HTTP]: GET /api/v1/settings [33m401[0m 0.133ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:33:02 [HTTP]: GET /api/v1/settings [33m401[0m 0.487ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:01 [HTTP]: GET /api/v1/settings [32m304[0m 365.871ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:02 [HTTP]: GET /api/v1/settings [32m304[0m 327.444ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:19 [HTTP]: GET /api/v1/settings [32m304[0m 320.714ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:20 [HTTP]: GET /api/v1/settings [32m304[0m 336.423ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:39 [HTTP]: GET /api/v1/settings [32m304[0m 338.763ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:39 [HTTP]: GET /api/v1/settings [32m304[0m 345.078ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:56 [HTTP]: GET /api/v1/settings [32m304[0m 343.188ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:35:56 [HTTP]: GET /api/v1/settings [32m304[0m 320.526ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:36:13 [HTTP]: GET /api/v1/settings [32m304[0m 338.501ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:36:13 [HTTP]: GET /api/v1/settings [32m304[0m 321.871ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:38:03 [HTTP]: GET /api/v1/settings [32m304[0m 323.856ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:38:03 [HTTP]: GET /api/v1/settings [32m304[0m 362.974ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:38:51 [HTTP]: GET /api/v1/settings [32m304[0m 401.086ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:38:52 [HTTP]: GET /api/v1/settings [32m304[0m 405.708ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:39:07 [HTTP]: POST /api/v1/auth/login [32m200[0m 348.406ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-20 22:39:08 [HTTP]: GET /api/v1/settings [32m304[0m 350.325ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:39:08 [HTTP]: GET /api/v1/settings [32m304[0m 337.486ms - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:39:09 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.67s - {
+  "service": "expense-tracker"
+}
+2025-09-20 22:39:11 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.64s - {
+  "service": "expense-tracker"
+}

@@ -1,0 +1,1002 @@
+2025-09-11 14:39:09 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 14:39:09 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117821440,
+      "heapTotal": 68456448,
+      "heapUsed": 46508784,
+      "external": 25164953,
+      "arrayBuffers": 21561592
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.79,
+      0.58,
+      0.31
+    ],
+    "uptime": 562.14
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 14:40:22 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 14:40:22 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 118849536,
+      "heapTotal": 67145728,
+      "heapUsed": 46471912,
+      "external": 25164953,
+      "arrayBuffers": 21561592
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.17,
+      1.01,
+      0.48
+    ],
+    "uptime": 635.24
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 14:41:04 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 14:41:04 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 17,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117403648,
+      "heapTotal": 66883584,
+      "heapUsed": 44153440,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.34,
+      0.94,
+      0.48
+    ],
+    "uptime": 677.14
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 14:43:29 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 14:43:29 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117538816,
+      "heapTotal": 67145728,
+      "heapUsed": 44499248,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.88,
+      0.89,
+      0.52
+    ],
+    "uptime": 822.71
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 14:52:04 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 14:52:04 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117534720,
+      "heapTotal": 66883584,
+      "heapUsed": 44391088,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.06,
+      0.94,
+      0.71
+    ],
+    "uptime": 1337.79
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 14:59:34 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 14:59:34 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117321728,
+      "heapTotal": 66883584,
+      "heapUsed": 44300568,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.76,
+      0.72,
+      0.68
+    ],
+    "uptime": 1787.81
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 15:00:29 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 15:00:29 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117370880,
+      "heapTotal": 67407872,
+      "heapUsed": 44529936,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.68,
+      0.71,
+      0.68
+    ],
+    "uptime": 1842.07
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 15:01:09 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 15:01:09 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 46,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 118898688,
+      "heapTotal": 67407872,
+      "heapUsed": 46549008,
+      "external": 25164953,
+      "arrayBuffers": 21561592
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.71,
+      0.71,
+      0.68
+    ],
+    "uptime": 1882.28
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 15:02:09 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 15:02:09 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 117411840,
+      "heapTotal": 67145728,
+      "heapUsed": 44552768,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.8,
+      0.72,
+      0.68
+    ],
+    "uptime": 1942.58
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-11 15:08:54 [ERROR]: uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///app/src/server.js:27:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  "error": {},
+  "stack": "ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and '/app/package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///app/src/server.js:27:18\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:106:12)",
+  "exception": true,
+  "date": "Thu Sep 11 2025 15:08:54 GMT+0000 (Coordinated Universal Time)",
+  "process": {
+    "pid": 18,
+    "uid": 1001,
+    "gid": 65533,
+    "cwd": "/app",
+    "execPath": "/usr/local/bin/node",
+    "version": "v18.20.8",
+    "argv": [
+      "/usr/local/bin/node",
+      "/app/src/server.js"
+    ],
+    "memoryUsage": {
+      "rss": 116736000,
+      "heapTotal": 67145728,
+      "heapUsed": 44451776,
+      "external": 25164952,
+      "arrayBuffers": 21561591
+    }
+  },
+  "os": {
+    "loadavg": [
+      0.91,
+      0.92,
+      0.8
+    ],
+    "uptime": 2347.47
+  },
+  "trace": [
+    {
+      "column": null,
+      "file": null,
+      "function": null,
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "file:///app/src/server.js",
+      "function": null,
+      "line": 27,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 195,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 337,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 34,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 106,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}
+2025-09-21 15:37:10 [ERROR]: uncaughtException: dataModificationLimiter is not defined
+ReferenceError: dataModificationLimiter is not defined
+    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/routes/users.js:18:38
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12) {
+  "error": {},
+  "stack": "ReferenceError: dataModificationLimiter is not defined\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/routes/users.js:18:38\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "exception": true,
+  "date": "Sun Sep 21 2025 15:37:10 GMT+0000 (Greenwich Mean Time)",
+  "process": {
+    "pid": 10674,
+    "uid": 501,
+    "gid": 20,
+    "cwd": "/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend",
+    "execPath": "/Users/masynctech/.nvm/versions/node/v20.12.1/bin/node",
+    "version": "v20.12.1",
+    "argv": [
+      "/Users/masynctech/.nvm/versions/node/v20.12.1/bin/node",
+      "/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/server"
+    ],
+    "memoryUsage": {
+      "rss": 98140160,
+      "heapTotal": 58327040,
+      "heapUsed": 38584976,
+      "external": 21385738,
+      "arrayBuffers": 18262472
+    }
+  },
+  "os": {
+    "loadavg": [
+      1.22998046875,
+      3.17529296875,
+      4.5400390625
+    ],
+    "uptime": 890
+  },
+  "trace": [
+    {
+      "column": 38,
+      "file": "file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/routes/users.js",
+      "function": null,
+      "line": 18,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 222,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 323,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 113,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "expense-tracker"
+}

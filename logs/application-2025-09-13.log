@@ -1,0 +1,152 @@
+2025-09-13 09:04:37 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-13 09:04:37 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-13 09:05:26 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-13 09:05:27 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:13 [HTTP]: GET /api/v1/settings [32m200[0m 372.260ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:13 [HTTP]: GET /api/v1/settings [32m304[0m 319.710ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:13 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "User authentication required",
+  "path": "/api/v1/analytics/dashboard",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: User authentication required\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/analytics.js:906:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:13 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 173.029ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:14 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "User authentication required",
+  "path": "/api/v1/analytics/dashboard",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: User authentication required\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/analytics.js:906:17\n    at asyncUtilWrap (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/masynctech/Desktop/NEW PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/node_modules/express/lib/router/index.js:280:10)\n    at protect (file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/auth.js:32:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:14 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 158.112ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:15 [HTTP]: GET /api/v1/auth/me [33m401[0m 0.474ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:37 [HTTP]: POST /api/v1/auth/register [32m201[0m 307.755ms {"name":"Sam","email":"sam@gmail.com","password":"[REDACTED]","role":"admin"} {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:52 [HTTP]: POST /api/v1/auth/login [32m200[0m 267.620ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:52 [HTTP]: GET /api/v1/settings [32m304[0m 365.075ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:52 [HTTP]: GET /api/v1/settings [32m304[0m 326.556ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:54 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 1.52s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:06:55 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.47s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:10:41 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-13 09:10:41 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-13 09:11:34 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-13 09:11:35 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-13 09:11:44 [WARN]: Route not found: GET /api/health {
+  "service": "expense-tracker"
+}
+2025-09-13 09:11:44 [HTTP]: GET /api/health [33m404[0m 4.008ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:11:49 [HTTP]: GET / [32m200[0m 4.794ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:06 [HTTP]: GET /api/v1/settings [33m401[0m 2.717ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:06 [HTTP]: GET /api/v1/settings [33m401[0m 4.664ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:23 [HTTP]: GET /api/v1/settings [33m401[0m 28.088ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:23 [HTTP]: GET /api/v1/settings [33m401[0m 2.761ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:23 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 2.509ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:23 [HTTP]: GET /api/v1/analytics/dashboard [33m401[0m 0.389ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:29 [HTTP]: GET /api/v1/auth/me [33m401[0m 4.114ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:39 [HTTP]: POST /api/v1/auth/login [32m200[0m 297.100ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:40 [HTTP]: GET /api/v1/settings [32m304[0m 311.529ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:40 [HTTP]: GET /api/v1/settings [32m304[0m 366.695ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:41 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.55s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:12:43 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.47s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:18:37 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-13 09:18:37 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-13 09:18:55 [HTTP]: GET /api/v1/settings [32m304[0m 356.720ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:18:55 [HTTP]: GET /api/v1/settings [32m304[0m 338.397ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:18:57 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.50s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:18:59 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.42s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:19:06 [HTTP]: GET /api/v1/settings [32m304[0m 334.339ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:19:06 [HTTP]: GET /api/v1/settings [32m304[0m 314.455ms - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:19:07 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.57s - {
+  "service": "expense-tracker"
+}
+2025-09-13 09:19:09 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 1.50s - {
+  "service": "expense-tracker"
+}

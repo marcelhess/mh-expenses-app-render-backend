@@ -1,0 +1,90 @@
+2025-09-20 19:15:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-20 20:30:18 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: Invalid credentials\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:00:26 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "undefined: Please provide a valid email address",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::1",
+  "stack": "Error: undefined: Please provide a valid email address\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/middleware/validate.js:28:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:01 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-20 22:01:02 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///Users/masynctech/Desktop/NEW%20PROJECTS/Marcel-Expenses-Project/Marcel-Expense-Project/backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
