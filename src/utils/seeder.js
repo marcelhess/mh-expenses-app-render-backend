@@ -77,7 +77,7 @@ const importData = async () => {
     const admin = await User.create({
       name: "Admin User",
       email: "admin@example.com",
-      password: "admin123",
+      password: process.env.DEFAULT_ADMIN_PASSWORD || "changeMe123!",
       role: "admin",
     });
 
@@ -85,7 +85,7 @@ const importData = async () => {
     const salesUser = await User.create({
       name: "John",
       email: "john@gmail.com",
-      password: "sales123",
+      password: process.env.DEFAULT_SALES_PASSWORD || "changeMe123!",
       role: "sales_rep",
     });
 

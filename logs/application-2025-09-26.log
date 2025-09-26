@@ -1,0 +1,135 @@
+2025-09-26 16:12:19 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:20 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:30 [HTTP]: GET /api/v1/settings [32m304[0m 376.209ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:30 [HTTP]: GET /api/v1/settings [32m304[0m 320.690ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:38 [HTTP]: POST /api/v1/auth/login [32m200[0m 298.935ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:39 [HTTP]: GET /api/v1/settings [32m304[0m 380.677ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:39 [HTTP]: GET /api/v1/settings [32m304[0m 367.840ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:42 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 2.78s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:43 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:43 [HTTP]: GET /api/v1/settings [32m304[0m 361.802ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:12:44 [HTTP]: GET /api/v1/settings [32m304[0m 333.416ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:13:10 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-26 16:13:10 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-26 16:13:52 [HTTP]: GET /api/v1/settings [33m401[0m 8.026ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:06 [HTTP]: GET /api/v1/settings [32m304[0m 367.629ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:06 [HTTP]: GET /api/v1/settings [32m304[0m 351.695ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:18 [HTTP]: GET /api/v1/settings [32m304[0m 393.121ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:18 [HTTP]: GET /api/v1/settings [32m304[0m 388.368ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:29 [HTTP]: POST /api/v1/auth/login [32m200[0m 260.636ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:30 [HTTP]: GET /api/v1/settings [32m304[0m 388.849ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:30 [HTTP]: GET /api/v1/settings [32m304[0m 348.457ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:31 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:31 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:31 [HTTP]: GET /api/v1/settings [32m304[0m 355.905ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:14:32 [HTTP]: GET /api/v1/settings [32m304[0m 366.764ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:48 [HTTP]: GET /api/v1/settings [32m304[0m 341.798ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:48 [HTTP]: GET /api/v1/settings [32m304[0m 342.646ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:50 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 2.57s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:52 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.06s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:55 [HTTP]: GET /api/v1/settings [32m304[0m 341.046ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:55 [HTTP]: GET /api/v1/settings [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:55 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m NaNs - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:56 [HTTP]: GET /api/v1/settings [32m200[0m 313.871ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:56 [HTTP]: GET /api/v1/settings [32m304[0m 340.736ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:15:59 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 2.62s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:16:01 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.54s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:16:03 [HTTP]: GET /api/v1/settings [32m304[0m 347.448ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:16:04 [HTTP]: GET /api/v1/settings [32m304[0m 357.580ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:16:06 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.60s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:16:08 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.13s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:16:48 [HTTP]: GET /api/v1/settings [33m401[0m 1.201ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:21:52 [HTTP]: GET /api/v1/settings [32m304[0m 422.825ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:21:52 [HTTP]: GET /api/v1/settings [32m304[0m 345.393ms - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:21:55 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.75s - {
+  "service": "expense-tracker"
+}
+2025-09-26 16:21:57 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 2.13s - {
+  "service": "expense-tracker"
+}

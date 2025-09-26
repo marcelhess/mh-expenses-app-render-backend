@@ -122,7 +122,7 @@ const initializeData = async () => {
       await User.create({
         name: "Admin User",
         email: "admin@example.com",
-        password: "admin123",
+        password: process.env.DEFAULT_ADMIN_PASSWORD || "changeMe123!",
         role: "admin",
       });
       dbLogger.info("Admin user created");
